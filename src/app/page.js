@@ -1,6 +1,5 @@
 import { getBlogPosts } from './utils/contentful';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default async function HomePage() {
   const posts = await getBlogPosts();
